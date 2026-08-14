@@ -1,0 +1,412 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    overflow-x:hidden;
+
+}
+::selection{
+    background-color: goldenrod;
+    color: black;
+}
+header{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(19, 14, 6);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header button{
+    margin: 10px;
+    padding: 5px;
+    scale: 1.2;
+    color: white;
+    background-color:rgb(97, 61, 3) ;
+    border-radius: 10px;
+
+
+}
+#btnClose{
+    display: none;
+}
+h1{
+margin: 0;
+padding: 5px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color:white;
+text-shadow: 2px 2px 5px rgb(158, 98, 1);
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+   
+
+}
+
+
+li{
+    color:white;
+   margin: 0 50px;
+   padding:4px;
+  scale: 1.4;
+
+}
+header ul li:hover{
+scale: 1.5;
+text-decoration: underline 1.9px solid rgba(147, 112, 5, 0.878);
+}
+#lines{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+  
+}
+img{
+    width: 50%;
+    height: 50vh;
+    border-radius: 10px;
+    background-color: rgb(14, 8, 1);
+    border-radius:0 20px 20px 0;
+    transition: all .5s linear;
+    animation-name: img;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+@keyframes img{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+figure{
+  margin: 0;
+box-shadow: 2px 2px 5px 4px black;
+    display: flex;
+    height: 50vh;
+    /* background-color: rgb(11, 7, 1); */
+    background-image: linear-gradient(black ,rgb(27, 25, 20) );
+    justify-content: space-between;
+}
+
+section{
+    /* box-shadow: 2px 1px 5px 4px black; */
+    width: 50%;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{ 
+    color: rgb(195, 154, 6);
+    text-shadow: 2px 2px 5px rgb(181, 177, 166) ;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+
+span{
+    display: block;
+    color: white;
+    font-size: 33px;
+    text-align: center;
+    text-shadow: 2px 2px 5px gold;
+}
+section>button{
+    display: block;
+    margin: 0 auto;
+    color: white;
+    text-shadow: 2px 2px 5px gold;
+    box-shadow: 1px 1px 10px 1px rgba(255, 217, 0, 0.737);
+    background-color: rgb(16, 7, 0);
+    border-radius: 5px;
+    padding: 5px;
+    scale: 1.5;
+}
+div{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav2 nav{
+    margin-right: 20px;
+
+}
+.nav2 button{  
+padding: 2px;
+color: black;
+background-color: rgb(50, 28, 0);
+border-radius: 10px;
+transition: all .5s linear;
+}
+.nav2 button:hover{
+scale: 1.1;
+background-color: black;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+main div img{
+    width: 100%;
+    height: 200px;
+   
+    background-color: brown;
+    border-radius: 10px;
+}
+main div{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;  
+    box-shadow: 2px 2px 5px 4px rgb(64, 33, 2);
+    background-color: rgb(99, 76, 53);
+ 
+}
+
+main div span{
+  font-size: 25px;
+}
+main div button{
+   
+    color: white;
+    text-shadow: 2px 2px 5px gold;
+    box-shadow: 1px 1px 10px 1px rgba(255, 217, 0, 0.567);
+    background-color: rgb(16, 7, 0);
+    border-radius: 5px;
+    padding: 5px;
+    scale: 1.2;
+}
+.get_watch{
+    display: block;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(52, 21, 3);
+    padding: 5px;
+    color: white;
+    scale: 1.3;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px black;
+}
+footer{
+    background-color: black;
+}
+footer p{
+    margin: 0;
+    padding: 5px;
+    font-size: 25px;
+}
+#Myworks{
+    display: none;
+
+}
+#Myworks main{
+display: flex;
+justify-content: space-around;
+margin: 5px;
+
+
+
+}
+#Myworks .line{
+    font-size: 20px;
+}
+#Myworks figure{
+  width: 50%;
+
+  margin: 0 auto;
+  height: 200px;
+ border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#Myworks figure p{
+    color: white;
+   
+    text-shadow: 2px 2px 5px gold;
+  
+    width: 50%;
+    font-size:30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+   
+    text-align: center;
+}
+#Myworks figure img{
+   border-radius: 10px 10px 0 0;
+
+    width: 50%;
+    height: 100%;
+}
+#Myworks > p{
+    font-size: 26px;
+    text-shadow: 2px 2px 5px rgb(83, 51, 0);
+    color: rgb(113, 72, 0);
+}
+#Myworks main section{
+    width: 150px;
+    margin: 10px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: rgb(31, 17, 1);
+    box-shadow: 2px 2px 5px 4px rgb(118, 66, 7);
+    border-radius: 5px;
+}
+#Myworks section p{
+font-size: 16px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(224, 221, 214);
+
+}
+
+#Myworks section i{
+    color: goldenrod;
+     text-shadow: 2px 2px 5px  black;
+}
+.whatsap{
+    box-shadow: 2px 2px 5px 4px black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: fixed;
+    bottom: 16px;
+    right: 16px;
+}
+i{
+    font-size: 30px;
+    color: rgb(31, 137, 19);
+}
+@media (min-width:250px) and (max-width:964px){
+h1{
+margin: 0;
+letter-spacing: 0;
+    padding: 5px;
+    font-size:27px;
+}
+
+#btnClose{
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    scale: 1;
+    
+    font-size:16px;
+}
+.nav1{
+    display: none
+}
+.header{
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40%;
+    margin: 0;
+    z-index: 2;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    animation-name: appear;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    background-color: rgb(23, 15, 3);
+
+    
+}
+
+@keyframes appear {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+li a {
+    position: relative;
+    right: 10px;
+    width: fit-content;
+    background-color: rgb(88, 51, 7);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 1px rgb(31, 13, 1);
+    
+
+}
+
+
+
+.header>li{
+     margin: 0 auto;
+    
+}
+
+.header>li:hover{
+    text-decoration: none;
+}
+
+
+figure section p,span{
+    font-size: 20px;
+}
+.nav2 ul{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+/* flex-direction: column; */
+gap: 20px;
+}
+#lines{
+    display: block;
+ 
+    border: none;
+    background-color: rgb(19, 14, 6);
+    font-size: 20px;
+    position: relative;
+   
+    bottom:3px;
+    margin: 5px;
+}
+
+#talk{
+    display: none;
+}
+
+#Myworks figure {
+    width: 100%;
+}
+#Myworks figure p {
+    font-size: 22px;
+}
+}
+
+@media (min-width:964px) and (max-width:1050px){
+   #talk{
+        display: none;
+    }
+    header{
+        align-items: center;
+    }
+    
+}
