@@ -172,7 +172,9 @@ main div{
     background-color: rgb(99, 76, 53);
  
 }
-
+main div:hover{
+   box-shadow:1px 1px 20px .5px rgba(184, 108, 2, 0.96); 
+}
 main div span{
   font-size: 25px;
 }
